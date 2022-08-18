@@ -21,7 +21,33 @@ let crear;
 let finalizar = "";
 
 
+const botonDarkMode = document.getElementById('botonDarkMode')
+const botonLightMode = document.getElementById('botonLightMode')
 
+let mode;
+if(localStorage.getItem('darkMode')){
+    mode = localStorage.getItem('darkMode')
+}else {
+    localStorage.setItem('darkMode', 'light')
+}
+
+if(mode == 'dark'){
+    document.body.classList.add('darkMode')
+}
+
+//boton dark
+botonDarkMode.addEventListener('click', () =>{
+document.body.classList.add('darkMode')
+localStorage.setItem('darkMode', 'dark')
+})
+
+//boton light
+botonLightMode.addEventListener('click', () =>{
+
+    document.body.classList.remove('darkMode')
+    localStorage.setItem('darkMode', 'light')
+})
+console.log(mode)
 
 entrada = prompt("Hola! deseas seleccionar los ingredientes de tu Hamburgesa? responde si/no").toLowerCase()
 
