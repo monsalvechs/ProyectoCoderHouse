@@ -1,0 +1,5 @@
+let stock = [
+    {id: 1 , nombre : "Super Carne", tipo: "Carne", descripcion: "Dos hamburguesas de pura carne con salsa y queso derretido, el toque de cebolla y el crocante de pepino.", precio: 500, img: "https://www.umamiburgerparis.com/media/images/gallery/CaaheCali_5.jpg?c=7777-1"},
+    {id: 2 , nombre : "Super Pollo", tipo: "Pollo", descripcion: "Deliciosa pechuga de pollo, acompañada de lechuga y mayonesa.", precio: 550, img: "https://www.antojoentucocina.com/wp-content/uploads/2021/03/hamburguesa-pollo-frito-1-scaled.jpg" },
+    {id: 3 , nombre : "Ultra Wagyu", tipo: "Premium", descripcion: "Hamburguesa con 3 carnes en pan brioche, panceta, salsa barbacoa premium, salsa cheddar, queso y cebolla caramelizada", precio: 700, img: "https://www.minervafoods.com/wp-content/uploads/2019/08/shutterstock_1169918173.jpg"}
+]
